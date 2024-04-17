@@ -1,0 +1,20 @@
+.container{
+    text-align: center;
+}
+.img{
+    width: 30%;
+    margin: 5px;
+    border: 3px solid gray;
+    padding: 5px;
+}
+span{
+    text-decoration: underline;
+    color: blue;
+}
+p{
+    margin: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+h4{
+    margin: 10px;
+}

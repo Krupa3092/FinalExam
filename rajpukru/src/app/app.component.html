@@ -1,0 +1,11 @@
+<app-header></app-header>
+<div class="container">
+  <img [src]="imageUrl" alt={{paintingData?.picture}} class="img">
+  <h4><span>Name: </span>{{ paintingData?.name }} / {{paintingData?.id}}</h4>
+  <p><span>Artist: </span>{{paintingData?.artist}}</p>
+  <p><span>Dimensions: </span>{{ paintingData?.dimensions.width }}" x {{ paintingData?.dimensions.height }}"</p>
+  <p><span>Medium: </span>{{ paintingData?.medium }}</p>
+  <p><span>Picture: </span>{{ paintingData?.picture }}</p>
+  <p><span>Is Famous? : </span>{{ paintingData?.famous ? 'yes' : 'no' }}</p>
+</div>
+<app-footer></app-footer>
